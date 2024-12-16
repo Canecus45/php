@@ -1,0 +1,38 @@
+<?php $libri = array(
+    array('titolo' => 'asterix', 'autore' => 'aldo', 'anno' => 1962, 'copie' => 5),
+    array('titolo' => 'obelix', 'autore' => 'osvaldo', 'anno' => 1964, 'copie' => 3),
+    array('titolo' => 'fiordaliso', 'autore' => 'anna', 'anno' => 1999, 'copie' => 2),
+    array('titolo' => 'medioevo', 'autore' => 'mino', 'anno' => 1956, 'copie' => 1),
+    array('titolo' => 'romani', 'autore' => 'rino', 'anno' => 2001, 'copie' => 10),
+    array('titolo' => 'greci', 'autore' => 'giovanni', 'anno' => 1972, 'copie' => 4),
+    array('titolo' => 'misteri', 'autore' => 'giacomo', 'anno' => 1986, 'copie' => 3),
+    array('titolo' => 'gioia di vivere', 'autore' => 'michele', 'anno' => 1952, 'copie' => 7),
+    array('titolo' => 'vivere la gioia', 'autore' => 'michele', 'anno' => 1954, 'copie' => 9),
+);
+$prestiti = array(
+    array('libro' => 'asterix', 'lettore' => 'annalisa'),
+    array('libro' => 'asterix', 'lettore' => 'donato'),
+    array('libro' => 'asterix', 'lettore' => 'floriano'),
+    array('libro' => 'fiordaliso', 'lettore' => 'rosa'),
+    array('libro' => 'gioia di vivere', 'lettore' => 'zeno'),
+    array('libro' => 'medioevo', 'lettore' => 'giacomo'),
+    array('libro' => 'misteri', 'lettore' => 'giacomo'),
+    array('libro' => 'obelix', 'lettore' => 'donato'),
+    array('libro' => 'romani', 'lettore' => 'emma'),
+    array('libro' => 'romani', 'lettore' => 'valerio'),
+);
+$lettori = array(
+    array('nome' => 'andrea', 'nascita' => 1982, 'citta' => 'bergamo'),
+    array('nome' => 'annalisa', 'nascita' => 1975, 'citta' => 'mantova'),
+    array('nome' => 'beniamino', 'nascita' => 1999, 'citta' => 'chieti'),
+    array('nome' => 'ciro', 'nascita' => 1950, 'citta' => 'salerno'),
+    array('nome' => 'donato', 'nascita' => 1988, 'citta' => 'lucca'),
+    array('nome' => 'emma', 'nascita' => 1955, 'citta' => 'sassari'),
+    array('nome' => 'floriano', 'nascita' => 1970, 'citta' => 'grosseto'),
+    array('nome' => 'giacomo', 'nascita' => 1968, 'citta' => 'palermo'),
+    array('nome' => 'ilaria', 'nascita' => 1982, 'citta' => 'firenze'),
+    array('nome' => 'paolo', 'nascita' => 1967, 'citta' => 'firenze'),
+    array('nome' => 'rosa', 'nascita' => 1992, 'citta' => 'firenze'),
+    array('nome' => 'valerio', 'nascita' => 1981, 'citta' => 'genova'),
+    array('nome' => 'zeno', 'nascita' => 1952, 'citta' => 'trieste'),
+); ?>
